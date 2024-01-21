@@ -14,7 +14,7 @@ var router *gin.Engine
 
 /*
  * initialize a router object if not created
- * @TODO : make custom router with specified configurations
+ * @todo : make custom router with specified configurations
  */
 func CreateRouter() {
 	if router == nil {
@@ -41,7 +41,7 @@ func SetupRoutes() {
 
 /*
  * start the router
- * @TODO : start with custom settings in future
+ * @todo : start with custom settings in future
  */
 func StartRouter() {
 	router.Run(":8080")
